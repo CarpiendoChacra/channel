@@ -1,0 +1,75 @@
+{
+    "name": "Telegram group manager RUTotalSecurityBot bot",
+    "description": "RUTotalSecurityBot Es un bot de administración de grupos todo en uno hecho para administrar su grupo de manera efectiva con algunas herramientas de seguridad avanzadas y adecuado para todas sus necesidades ❤️",
+    "repository": "https://github.com/",
+    "logo": "https://telegra.ph/file/38d48fa6ce357927d6d12.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "mongodb",
+    "Group-Manager-bot",
+    "pyrogram"
+    ],
+    "website": "https://",
+    "success_url": "https://t.me/RUTotalSecurityBot",
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Token de bot de Telegram obténgalo de  @BotFather",
+            "required": true
+        },
+        "API_ID": {
+            "description": "API_ID de su cuenta de Telegram my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "API_HASH de su cuenta de Telegram my.telegram.org/apps",
+            "required": true
+        },
+        "API_ID1": {
+            "description": "Igual que API_ID (multicliente)",
+            "required": true
+        },
+        "API_HASH1": {
+            "description": "Igual que API_HASH (multicliente)",
+            "required": true
+        },
+        "LOG_GROUP_ID": {
+            "description": "Para que el canal de registros anote eventos importantes a nivel de bot, se recomienda hacerlo público. ex: '-123456'",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "Obtener de aquí.https://www.mongodb.com/",
+            "required": true
+        },
+        "BASE_DB": {
+            "description": "Obtener de aquí.https://www.mongodb.com/ (Same as MONGO_URL but give differant value for this) ",
+            "required": true
+        },
+        "ARQ_API_URL": {
+            "description": "No cambies este valor",
+            "value": "https://arq.hamker.in",
+            "required": true
+        },
+        "ARQ_API_KEY": {
+            "description": "Obtén esto de @ARQRobot.",
+            "required": true
+        },
+        "COMMAND_PREFIXES": {
+            "description": "ahora puede configurar un controlador de comando personalizado para rose como: / ! ,",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Tu ID de usuario de Telegram",
+            "required": true
+        },
+        "F_SUB_CHANNEL": {
+            "description": "La identificación del canal de Telegram que desea enfocar al usuario.",
+            "required": true
+        }
+    }
+}
+
+
+
